@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+header,footer{
+    background-color: rgb(62, 108, 62);
+    width: 100%;
+    margin: 0 auto 0;
+    color: rgb(255, 255, 255);
+}
+
+/* HEADER HERE */
+
+header{
+    height: 150px;
+}
+
+header #logo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+header #mail{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+/* NAVIGATION LINKS */
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(236, 220, 188);
+    font-size: 1.6em;
+    font-weight: 1000;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{ 
+    color: rgb(62, 108, 62);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover{
+    color: rgb(142, 6, 6);
+}
+
+/* INTRO IMAGES */
+
+.intro img{
+    width: 100%;
+    z-index: -1;
+}
+
+/* INFO COLUMNS HERE */
+
+.info-columns{
+    display: flex;
+}
+
+.info-columns > * {
+    flex: 1;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.info-columns ul{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.info-columns li{
+    transition: color 0.1s;
+}
+
+.info-columns li:hover{
+    color: rgb(188, 40, 55);
+}
+
+.infocard-1 h2{
+    font-size: 2em;
+    text-align: center;
+    color: rgb(62, 108, 62);
+}
+
+
+.info-columns p{
+    font-size: 23px;
+    color: rgb(248, 207, 131);
+}
+ 
+.infocard-2 h2{
+    color: rgb(248, 207, 131);
+    font-size: 2em;
+    text-justify: left;
+}
+
+.info-columns > * {
+    flex: 1;
+    font-size: 20px;
+}
+
+.infocard-1{
+    background-color: rgb(240, 222, 193);
+}
+
+.infocard-2{
+    background-color: rgb(122, 69, 29);
+}
+
+/* MENU HERE */
+
+.menu{
+    background-color: rgb(137, 99, 32);
+}
+
+.menu h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.menu ul{
+    padding: 2%;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 1.5em;
+    list-style-type: none;
+    color: white;
+}
+
+.menu li:hover{
+    color: rgb(215, 181, 126);
+    transition: color 2s;
+}
+
+
+/* COFFEE COLUMNS HERE */
+
+.coffee{
+    display: flex;
+    gap: 1em;
+    padding: 30px;
+    background-color: rgb(215, 197, 188);
+}
+
+.coffee article{
+    padding: 10px;
+    left: 50px;
+}
+
+.coffee a{
+    color: rgb(92, 54, 10);
+}
+
+.coffee img{
+    width: 100%;
+}
+
+.coffee h1{
+    color: rgb(92, 54, 10);
+    font-size: 30px;
+}
+
+.coffee p{
+    color: rgb(92, 54, 10);
+    font-size: 20px;
+}
+
+.coffee a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* EVENTS CARD */
+
+.events{
+    padding: 40px;
+    background-color: rgb(255, 244, 233);
+}
+
+.events h3{
+    text-align: center;
+    color: rgb(181, 15, 15);
+    font-size: 1.5em;
+}
+
+.events ul{
+    display: flex;
+    color: black;
+    list-style-type: circle;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.events li{
+    transition: color 0.2s;
+}
+
+.events li:hover{
+    color: rgb(181, 15, 15);
+}
+
+/* LOCATION */
+
+.location{
+    background-color: rgb(122, 69, 29);
+    padding: 25px;
+    color: blanchedalmond;
+    text-align: center;
+    transition: color 0.2s;
+}
+
+.location:hover{
+    color: rgb(247, 176, 169);
+}
+
+/* FOOTER CONTENT HERE */
+
+footer{ 
+padding: 2.5%;
+}
+
+footer h3{
+    display: flex;
+    width: 100%;
+}
+
+.socials{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+#insta {
+    height: 32px;
+    width: 100%;
+}
+
+#facebook {
+    height: 33px;
+    width: 100%;
+}
+
+#twitter {
+    height: 30px;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#yelp {
+    height: 30px;
+    width: 100%;
+}
+
+#mail{
+    height: 25px;
+    width: 100%;
+    margin-top: 5px;
+}
